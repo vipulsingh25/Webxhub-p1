@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+
+body{
+    background-color: rgba(116, 14, 218, 0.222);
+}
+
+/* LOGIN PAGE */
+
+#profile img{
+    width: 40px;
+    height: 30px;
+}
+
+#profile span{
+    vertical-align: middle;
+}
+
+#profile{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.mainsection{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 30%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    border: solid gray 2px;
+}
+
+.mainsection form{
+    width: 45%;
+    margin: auto;
+}
+
+.label-input{
+    width: 100%;
+}
+
+input{
+    height: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: solid gray 2px;
+    padding: 4px;
+    margin: 5px 0px 5px 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button{
+    width: 60%;
+    margin: auto;
+    background-color: rgba(171, 86, 255, 0.222);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: solid 4px rgba(116, 14, 218, 0.222);
+}
+
+.button button , .button2 button{
+    background: transparent;
+    width: 100%;
+}
+
+
+
+/* REGISTER PAGE */
+
+.label-input1{
+    display: flex;
+}
+
+.mainsection2{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 70%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    border: solid gray 2px;
+}
+
+.mainsection2 form{
+    width: 50%;
+    margin: auto;
+}
+
+.label-input2{
+    margin-left: 70px;
+}
+
+
+.button2{
+    width: 35%;
+    margin: auto;
+    background-color: rgba(171, 86, 255, 0.222);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: solid 4px rgba(116, 14, 218, 0.222);
+}
+
+#disabled-input{
+    text-align: center;
+    border: solid 4px rgba(116, 14, 218, 0.222);
+    background-color: rgba(171, 86, 255, 0.222);
+}
+
+#user img{
+    width: 40px;
+    height: 30px;
+}
+
+#user span{
+    vertical-align: middle;
+}
+
+#user{
+    width: 20%;
+    float: right;    
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: solid 2px gray ;
+}
+
+.user-profile{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
