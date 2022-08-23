@@ -15,17 +15,24 @@
             <div class="label-input">
                 <div>
                     <label>User Id</label><br>
-                    <input type="text" required>
+                    <input id="user-id" type="text">
+                    <p id="userid-warning">Enter your Id</p>
                 </div>
                 <div>
                     <label>Password</label><br>
-                    <input type="password" required>
+                    <input id="user-password" type="password">
+                    <p id="userpass-warning">Enter your Password</p>
                 </div>
             </div>
-            <div class="button">
-                <button type="submit">LOG IN</button>
-            </div>
         </form>
+        <div class="button">
+            <button onclick="login()" type="submit">LOG IN</button>
+        </div>
+        <div class="button-gap"><p>Or</p></div>
+        <div class="next-button">
+            <a href="register.html"><button type="submit">Register</button></a>
+        </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>

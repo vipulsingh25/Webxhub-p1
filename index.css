@@ -4,6 +4,10 @@
     border: none;
 }
 
+button{
+    cursor: pointer;
+}
+
 body{
     background-color: rgba(116, 14, 218, 0.222);
 }
@@ -57,8 +61,27 @@ input{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.button{
+/* .button{
     width: 60%;
+    margin: auto;
+    background-color: rgba(171, 86, 255, 0.222);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: solid 4px rgba(116, 14, 218, 0.222);
+} */
+
+/* .button button , .button2 button{
+    background: transparent;
+    width: 100%;
+} */
+
+.button-gap p{
+    text-align: center;
+}
+
+.next-button , .button , .button2{
+    width: 35%;
     margin: auto;
     background-color: rgba(171, 86, 255, 0.222);
     border-radius: 10px;
@@ -67,11 +90,10 @@ input{
     border: solid 4px rgba(116, 14, 218, 0.222);
 }
 
-.button button , .button2 button{
+.next-button button , .button button , .button2 button , .registerbtn button{
     background: transparent;
     width: 100%;
 }
-
 
 
 /* REGISTER PAGE */
@@ -101,8 +123,8 @@ input{
 }
 
 
-.button2{
-    width: 35%;
+.registerbtn{
+    width: 15%;
     margin: auto;
     background-color: rgba(171, 86, 255, 0.222);
     border-radius: 10px;
@@ -111,7 +133,7 @@ input{
     border: solid 4px rgba(116, 14, 218, 0.222);
 }
 
-#disabled-input{
+.disabled-input{
     text-align: center;
     border: solid 4px rgba(116, 14, 218, 0.222);
     background-color: rgba(171, 86, 255, 0.222);
@@ -127,7 +149,8 @@ input{
 }
 
 #user{
-    width: 20%;
+    padding: 4px;
+    min-width: 20%;
     float: right;    
     text-align: center;
     margin-top: 50px;
@@ -141,4 +164,9 @@ input{
     width: 70%;
     margin: auto;
     margin-top: 50px;
+}
+
+#userid-warning , #userpass-warning , #emailid-warning , #phone-warning{
+    display: none;
+    color: red;
 }
